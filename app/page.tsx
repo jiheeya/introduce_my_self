@@ -10,9 +10,9 @@ const photos = [
 ];
 
 const hobbies = [
-  { id: "baseball", emoji: "⚾", label: "야구보기",               title: "⚾ 야구보기",               src: "/야구"  },
-  { id: "friends",  emoji: "🤝", label: "좋아하는 사람들과 시간보내기", title: "🤝 소중한 사람들",            src: "/사람"  },
-  { id: "challenge",emoji: "🚀", label: "도전하기",               title: "🚀 도전하기",               src: "/도전"  },
+  { id: "baseball", emoji: "⚾", label: "야구보기",               title: "⚾ 야구보기",    src: "/야구.jpg"  },
+  { id: "friends",  emoji: "🤝", label: "좋아하는 사람들과 시간보내기", title: "🤝 소중한 사람들", src: "/사람.jpg"  },
+  { id: "challenge",emoji: "🚀", label: "도전하기",               title: "🚀 도전하기",    src: "/도전.jpg"  },
 ];
 
 type WinState = { id: string; title: string; src: string; x: number; y: number };
