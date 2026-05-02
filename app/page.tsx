@@ -11,7 +11,7 @@ const photos = [
     src: "/KakaoTalk_20260503_022250469.jpg",
     alt: "jihee photo 2",
     rotate: "rotate-2",
-    caption: "🌸 MT PHOTO",
+    caption: "🌸 my photo",
   },
   {
     src: "/KakaoTalk_20260503_022250469_01.jpg",
