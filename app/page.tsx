@@ -11,7 +11,7 @@ const photos = [
     src: "/KakaoTalk_20260503_022250469.jpg",
     alt: "jihee photo 2",
     rotate: "rotate-2",
-    caption: "⚾ my life",
+    caption: "🌸 MT PHOTO",
   },
   {
     src: "/KakaoTalk_20260503_022250469_01.jpg",
@@ -99,6 +99,18 @@ export default function Home() {
         }}
       >
         <p className="text-xs tracking-[0.25em] text-sky-400 uppercase mb-5">about me</p>
+        <div className="flex justify-center gap-6 mb-6">
+          <div className="flex flex-col items-center gap-1">
+            <span className="text-xs text-sky-400 tracking-widest uppercase">birthday</span>
+            <span className="text-sm font-semibold text-sky-800">2005.08.04</span>
+          </div>
+          <div className="w-px bg-sky-100" />
+          <div className="flex flex-col items-center gap-1">
+            <span className="text-xs text-sky-400 tracking-widest uppercase">MBTI</span>
+            <span className="text-sm font-semibold text-sky-800">ENFJ</span>
+          </div>
+        </div>
+        <div className="w-full h-px bg-sky-100 mb-6" />
         <ul className="flex flex-col gap-3 mb-7">
           {[
             { emoji: "⚾", label: "야구보기" },
